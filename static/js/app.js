@@ -60,6 +60,9 @@ simeia.config(['$routeProvider',
             when('/zines/:zineid', {
                 templateUrl: 'partials/zines.html'
             }).
+            when('/keimena', {                
+                templateUrl: 'partials/keimena.html'
+            }).
             otherwise('/');
     }
 ]);
